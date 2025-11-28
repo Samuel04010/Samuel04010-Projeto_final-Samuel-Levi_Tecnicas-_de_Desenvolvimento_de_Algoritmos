@@ -1,0 +1,2 @@
+# Samuel04010-Projeto_final-Samuel-Levi_Tecnicas-_de_Desenvolvimento_de_Algoritmos
+Este projeto consiste no desenvolvimento de um Sistema de Gestão de Farmácia, criado com o objetivo de oferecer uma solução simples e funcional para controle de fornecedores e produtos. O sistema foi desenvolvido utilizando PHP, MySQL e Bootstrap, aplicando boas práticas de programação estruturada, uso de banco de dados relacional e rotas internas.
