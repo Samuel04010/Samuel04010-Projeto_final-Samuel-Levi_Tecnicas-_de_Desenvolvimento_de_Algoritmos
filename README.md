@@ -134,4 +134,61 @@ FIM
        ▼                        ▼
    (volta ao menu)          (volta ao menu)
 
+Como Visualizar o Projeto – Passo a Passo
+
+Instalar um servidor local
+
+Baixe e instale o XAMPP ou WAMP (ou outro servidor que suporte PHP e MySQL).
+
+Inicie os módulos Apache e MySQL no painel do XAMPP/WAMP.
+
+Clonar ou copiar o projeto
+
+Clone do GitHub:
+git clone https://github.com/SEU-USUARIO/sistema-farmacia.git
+Ou copie a pasta do projeto para a pasta do servidor local:
+
+XAMPP → C:\xampp\htdocs\
+
+WAMP → C:\wamp\www\
+
+Criar o banco de dados
+
+Abra o phpMyAdmin (geralmente http://localhost/phpmyadmin).
+
+Crie um banco chamado farmacia.
+
+Importe o arquivo SQL do projeto (ex.: farmacia.sql) se houver.
+
+Configurar a conexão
+
+Abra o arquivo config.php dentro do projeto.
+
+Verifique se as credenciais do banco estão corretas:
+define('HOST', 'localhost');
+define('USER', 'root');
+define('PASS', '');
+define('BASE', 'farmacia');
+
+Acessar o projeto no navegador
+
+Digite na barra de endereços:
+http://localhost/sistema-farmacia
+
+A página inicial do sistema será carregada.
+
+Navegar pelo sistema
+
+Use o menu superior para acessar:
+
+Fornecedores: Cadastrar, Listar, Editar, Excluir
+
+Produtos: Cadastrar, Listar, Editar, Excluir
+
+Testar funcionalidades
+
+Tente cadastrar um fornecedor, depois um produto vinculado a ele.
+
+Teste edição e exclusão (a exclusão de fornecedores com produtos vinculados será bloqueada).
+
 
